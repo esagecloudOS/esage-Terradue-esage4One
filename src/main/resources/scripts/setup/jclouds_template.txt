@@ -1,0 +1,11 @@
+NAME="interoute-vm"
+CPU="1"
+MEMORY="1024"
+CONTEXT=[
+	FILES="file1 file2"
+]
+JCLOUDS=[
+	EXTERNAL_NETWORK="remote_external_network",
+	TEMPLATE="remote_template",
+	PRIVATE_NETWORK="remote_private_network"
+]
